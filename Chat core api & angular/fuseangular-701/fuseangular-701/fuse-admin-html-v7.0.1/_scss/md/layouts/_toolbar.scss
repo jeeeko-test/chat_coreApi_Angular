@@ -1,0 +1,76 @@
+#toolbar {
+    @include mdc-elevation(1);
+    width: 100%;
+    height: $toolbarHeight;
+    min-height: $toolbarHeight;
+    transition: left 300ms ease, right 300ms ease;
+    position: relative;
+
+
+    .toolbar-separator {
+        height: $toolbarHeight;
+        width: 1px;
+        background: rgba(0, 0, 0, .12);
+    }
+
+    .shortcuts-wrapper {
+
+        .shortcuts {
+
+            .shortcut-button {
+
+            }
+        }
+
+        .add-shortcut-menu-button {
+
+            > .dropdown-toggle {
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .user-menu-button {
+
+        > .dropdown-toggle {
+            height: $toolbarHeight;
+            position: relative;
+            cursor: pointer;
+
+            .avatar-wrapper {
+                position: relative;
+                .status {
+                    position: absolute;
+                    bottom: -.4rem;
+                    right: -.4rem;
+                }
+            }
+        }
+    }
+
+    .toggle-aside-button,
+    .search-button,
+    .quick-panel-button {
+        height: $toolbarHeight;
+        width: $toolbarHeight;
+        @include media-breakpoint-down(xs) {
+            width: 4.8rem;
+            height: 4.8rem;
+        }
+    }
+
+    .language-button {
+        > .dropdown-toggle {
+            cursor: pointer;
+            height: $toolbarHeight;
+
+            @include media-breakpoint-down(xs) {
+                width: 4.8rem;
+                height: 4.8rem;
+            }
+        }
+    }
+}

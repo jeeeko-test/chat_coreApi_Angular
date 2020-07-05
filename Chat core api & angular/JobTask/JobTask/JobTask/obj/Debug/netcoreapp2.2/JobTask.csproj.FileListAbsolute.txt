@@ -1,0 +1,14 @@
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.csprojAssemblyReference.cache
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.csproj.CoreCompileInputs.cache
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.RazorAssemblyInfo.cache
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.RazorAssemblyInfo.cs
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.AssemblyInfoInputs.cache
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.AssemblyInfo.cs
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\bin\Debug\netcoreapp2.2\JobTask.deps.json
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\bin\Debug\netcoreapp2.2\JobTask.runtimeconfig.json
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\bin\Debug\netcoreapp2.2\JobTask.runtimeconfig.dev.json
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\bin\Debug\netcoreapp2.2\JobTask.dll
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\bin\Debug\netcoreapp2.2\JobTask.pdb
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.RazorTargetAssemblyInfo.cache
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.dll
+C:\Users\jee\source\repos\JobTask\JobTask\JobTask\obj\Debug\netcoreapp2.2\JobTask.pdb

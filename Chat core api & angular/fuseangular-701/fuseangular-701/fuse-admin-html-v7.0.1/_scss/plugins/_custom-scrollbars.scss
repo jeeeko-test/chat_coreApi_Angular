@@ -1,0 +1,13 @@
+.custom-scrollbar {
+    position: relative;
+    overflow: hidden !important;
+}
+
+body.is-mobile .custom-scrollbar {
+    overflow: auto !important;
+}
+
+.ps__scrollbar-x-rail,
+.ps__scrollbar-y-rail {
+    z-index: 99;
+}

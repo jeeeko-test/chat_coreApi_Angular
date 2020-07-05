@@ -1,0 +1,75 @@
+.layout.layout-vertical {
+
+    > main {
+        display: flex;
+        flex-direction: column;
+
+        #wrapper {
+            display: flex;
+            flex: 1 1 auto;
+            min-height: auto;
+            position: relative;
+            overflow: hidden;
+
+            > aside {
+                z-index: 1021;
+            }
+
+            > .content-wrapper {
+                display: flex;
+                min-height: 100%;
+                flex-direction: column;
+                width: 100%;
+                flex: 1;
+                overflow: hidden;
+                z-index: 1019;
+
+                > .content {
+                    display: flex;
+                    flex: 1 1 auto;
+                    flex-direction: column;
+                    overflow: auto;
+                    position: relative;
+                }
+            }
+        }
+
+        #toolbar,
+        #footer {
+            z-index: 1021;
+        }
+    }
+
+    &.fuse-aside-folded {
+
+        &.layout-left-navigation {
+            #wrapper {
+                padding-left: 6.4rem;
+            }
+        }
+
+        &.layout-right-navigation {
+            #wrapper {
+                padding-right: 6.4rem;
+            }
+        }
+
+        #wrapper {
+
+            > aside {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                height: 100%;
+
+                &.aside-left {
+                    left: 0;
+                }
+
+                &.aside-right {
+                    right: 0;
+                }
+            }
+        }
+    }
+}
